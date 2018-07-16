@@ -3,6 +3,6 @@ export default {
     data_path: "./data",
   },
   production: {
-    data_path: "../public/data",
+    data_path: "./public/data",
   },
 };
