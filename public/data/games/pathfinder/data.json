@@ -1,3 +1,130 @@
 {
-  "test": "test"
+  "rule": [
+    {
+      "rule_name": "rule name",
+      "rule_description": [""]
+    }
+  ],
+  "cards": [
+    {
+      "card_type": "WEAPONS",
+      "card_type_description": ["詠唱"],
+      "type_cards": [
+        {
+          "name": "Acidic Sling",
+          "rule_description": [
+            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
+          ]
+        },
+        {
+          "name": "Allying Dart",
+          "rule_description": [
+            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
+          ]
+        }
+      ]
+    },
+    {
+      "card_type": "SPELLS",
+      "card_type_description": ["詠唱"],
+      "type_cards": [
+        {
+          "name": "Belt of Physical Might",
+          "rule_description": [
+            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
+          ]
+        },
+        {
+          "name": "Blast Stone",
+          "rule_description": [
+            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
+          ]
+        }
+      ]
+    },
+    {
+      "card_type": "ARMORS",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Adamantine Plate Armor ",
+          "rule_description": [""]
+        },
+        {
+          "name": "Arrow Catching",
+          "rule_description": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "ITEMS",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Amulet of Fiery Fists ",
+          "rule_description": [""]
+        },
+        {
+          "name": "Amulet of Fortitude",
+          "rule_description": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "ALLIES",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Acolyte",
+          "rule_description": [""]
+        },
+        {
+          "name": "Aldern Foxglove",
+          "rule_description": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "LOOT",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Chellan, Sword of Greed",
+          "rule_description": [""]
+        },
+        {
+          "name": "Emerald Codex",
+          "rule_description": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "BLESSINGS",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Blessing of Abadar",
+          "rule_description": [""]
+        },
+        {
+          "name": "Blessing of Calistria (B, C)",
+          "rule_description": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "",
+          "rule_description": [""]
+        },
+        {
+          "name": "Blast Stone",
+          "rule_description": [""]
+        }
+      ]
+    }
+  ]
 }

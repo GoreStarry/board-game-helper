@@ -1,3 +1,14 @@
 {
-  "test": "test"
+  "PATHFINDER": {
+    "name": "PATHFINDER",
+    "name_zh_TW": "尋路者傳奇"
+  },
+  "AdventureTimeFluxx": {
+    "name": "Adventure Time Fluxx",
+    "name_zh_TW": ""
+  },
+  "Demo": {
+    "name": "Demo",
+    "name_zh_TW": "樣本"
+  }
 }

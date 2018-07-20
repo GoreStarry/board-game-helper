@@ -1,28 +1,25 @@
 import React, { Component } from "react";
-import axios from "axios";
-import logo from "./logo.svg";
+import { HashRouter, Switch, Route } from "react-router-dom";
+import { VitalProvider } from "@vital-ui/react";
 import "./App.css";
 import getEnvConfig from "./helper/getEnvConfig";
 
-console.log(process.env.NODE_ENV);
+import GameList from "./components/GameList";
+import CardLists from "./components/CardLists";
 
 class App extends Component {
-  componentDidMount = () => {
-    axios.get(`${getEnvConfig().data_path}/games/games.json`).then(res => {
-      console.log(res);
-    });
-  };
-
+  state = {};
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <VitalProvider theme="defaultTheme">
+          <HashRouter>
+            <Switch>
+              <Route exact path="/" component={GameList} />
+              <Route path="/:game" component={CardLists} />
+            </Switch>
+          </HashRouter>
+        </VitalProvider>
       </div>
     );
   }
