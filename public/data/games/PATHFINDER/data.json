@@ -11,16 +11,8 @@
       "card_type_description": ["詠唱"],
       "type_cards": [
         {
-          "name": "Acidic Sling",
-          "desc": [
-            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
-          ]
-        },
-        {
-          "name": "Allying Dart",
-          "desc": [
-            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
-          ]
+          "name": "",
+          "desc": [""]
         }
       ]
     },
@@ -29,16 +21,8 @@
       "card_type_description": ["詠唱"],
       "type_cards": [
         {
-          "name": "Belt of Physical Might",
-          "desc": [
-            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋1。"
-          ]
-        },
-        {
-          "name": "Blast Stone",
-          "desc": [
-            "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
-          ]
+          "name": "",
+          "desc": [""]
         }
       ]
     },
@@ -47,11 +31,7 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "Adamantine Plate Armor ",
-          "desc": [""]
-        },
-        {
-          "name": "Arrow Catching",
+          "name": "",
           "desc": [""]
         }
       ]
@@ -60,14 +40,68 @@
       "card_type": "ITEMS",
       "card_type_description": [""],
       "type_cards": [
+        { "name": "AMULET OF FIERLY FISTS", "desc": [""], "image": true },
+        { "name": "AMULET OF FORTITUDE", "desc": [""], "image": true },
+        { "name": "AMULET OF LIFE", "desc": [""], "image": true },
+        { "name": "BELT OF GIANT STRENGTH", "desc": [""], "image": true },
+        { "name": "BELT OF INCREDIBLE DEXTERITY", "desc": [""], "image": true },
+        { "name": "BELT OF PHYSICAL MIGHT", "desc": [""], "image": true },
+        { "name": "BLAST STONE", "desc": [""], "image": true },
+        { "name": "BOOTS OF ELVENKIND", "desc": [""], "image": true },
+        { "name": "BOOTS OF TELEPORTATION", "desc": [""], "image": true },
         {
-          "name": "Amulet of Fiery Fists ",
-          "desc": [""]
+          "name": "BRACERS OF GREATER PROTECTION",
+          "desc": [""],
+          "image": true
+        },
+        { "name": "BRACERS OF PROTECTION", "desc": [""], "image": true },
+        { "name": "CALTROPS", "desc": [""], "image": true },
+        { "name": "CAPE OF ESCAPE", "desc": [""], "image": true },
+        { "name": "CHIME OF UNLOCKING", "desc": [""], "image": true },
+        { "name": "CLOAK OF ELVENKIND", "desc": [""], "image": true },
+        { "name": "CODEX", "desc": [""], "image": true },
+        { "name": "CROWBAR", "desc": [""], "image": true },
+        { "name": "GREATER LUCKSTONE", "desc": [""], "image": true },
+        {
+          "name": "HEADBAND OF ALLURING CHARISMA",
+          "desc": [""],
+          "image": true
         },
         {
-          "name": "Amulet of Fortitude",
-          "desc": [""]
-        }
+          "name": "HEADBAND OF EPIC INTELLIGENCE",
+          "desc": [""],
+          "image": true
+        },
+        { "name": "HEADBAND OF INSPIRED WISDOM", "desc": [""], "image": true },
+        { "name": "HOLY CANDLE", "desc": [""], "image": true },
+        { "name": "HOLY WATER", "desc": [""], "image": true },
+        { "name": "LUCKSTONE", "desc": [""], "image": true },
+        { "name": "MAGIC SPYGLASS", "desc": [""], "image": true },
+        { "name": "MASTERWORK TOOLS", "desc": [""], "image": true },
+        { "name": "MATTOCK", "desc": [""], "image": true },
+        { "name": "NECKLACE OF FIREBALLS", "desc": [""], "image": true },
+        { "name": "POTION OF BLIBNESS", "desc": [""], "image": true },
+        { "name": "POTION OF ENERGY RESISTANCE", "desc": [""], "image": true },
+        { "name": "POTION OF FORTITUDE", "desc": [""], "image": true },
+        { "name": "POTION OF GHOSTLY FORM", "desc": [""], "image": true },
+        { "name": "POTION OF GRACEFULNESS", "desc": [""], "image": true },
+        { "name": "POTION OF HEALING", "desc": [""], "image": true },
+        { "name": "POTION OF HIDING", "desc": [""], "image": true },
+        { "name": "POTION OF RUGGEDNESS", "desc": [""], "image": true },
+        { "name": "POTION OF VISION", "desc": [""], "image": true },
+        { "name": "RING OF ENERGY RESISTANCE", "desc": [""], "image": true },
+        { "name": "RING OF PROTECTION", "desc": [""], "image": true },
+        { "name": "SIHEDRON RING", "desc": [""], "image": true },
+        { "name": "SPYGLASS", "desc": [""], "image": true },
+        { "name": "STAFF OF HEAVEN AND EARTH", "desc": [""], "image": true },
+        { "name": "THIEVES' TOOLS", "desc": [""], "image": true },
+        { "name": "TOKEN OF REMEMBRANCE", "desc": [""], "image": true },
+        { "name": "TOME OF KNOWLEDGE", "desc": [""], "image": true },
+        { "name": "WAND OF FORCE MISSILE", "desc": [""], "image": true },
+        { "name": "WAND OF MINOR HEALING", "desc": [""], "image": true },
+        { "name": "WAND OF SCORCHING RAY", "desc": [""], "image": true },
+        { "name": "WAND OF SHIELD", "desc": [""], "image": true },
+        { "name": "WAND OF TREASURE FINDING", "desc": [""], "image": true }
       ]
     },
     {
@@ -75,11 +109,7 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "Acolyte",
-          "desc": [""]
-        },
-        {
-          "name": "Aldern Foxglove",
+          "name": "",
           "desc": [""]
         }
       ]
@@ -89,11 +119,7 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "Chellan, Sword of Greed",
-          "desc": [""]
-        },
-        {
-          "name": "Emerald Codex",
+          "name": "",
           "desc": [""]
         }
       ]
@@ -102,14 +128,22 @@
       "card_type": "BLESSINGS",
       "card_type_description": [""],
       "type_cards": [
-        {
-          "name": "Blessing of Abadar",
-          "desc": [""]
-        },
-        {
-          "name": "Blessing of Calistria (B, C)",
-          "desc": [""]
-        }
+        { "name": "BLESSING OF ABADAR", "desc": [""], "image": true },
+        { "name": "BLESSING OF CALISTRIA", "desc": [""], "image": true },
+        { "name": "BLESSING OF DESNA", "desc": [""], "image": true },
+        { "name": "BLESSING OF ERASTIL", "desc": [""], "image": true },
+        { "name": "BLESSING OF GORUM", "desc": [""], "image": true },
+        { "name": "BLESSING OF GOZREH", "desc": [""], "image": true },
+        { "name": "BLESSING OF IOMEDAE", "desc": [""], "image": true },
+        { "name": "BLESSING OF IRORI", "desc": [""], "image": true },
+        { "name": "BLESSING OF LAMASHTU", "desc": [""], "image": true },
+        { "name": "BLESSING OF NETHYS", "desc": [""], "image": true },
+        { "name": "BLESSING OFNORGORBER", "desc": [""], "image": true },
+        { "name": "BLESSING OF PHARASMA", "desc": [""], "image": true },
+        { "name": "BLESSING OF SARENRAE", "desc": [""], "image": true },
+        { "name": "BLESSING OF SHELYN", "desc": [""], "image": true },
+        { "name": "BLESSING OF THE GODS", "desc": [""], "image": true },
+        { "name": "BLESSING OF TORAG", "desc": [""], "image": true }
       ]
     },
     {
@@ -118,10 +152,6 @@
       "type_cards": [
         {
           "name": "",
-          "desc": [""]
-        },
-        {
-          "name": "Blast Stone",
           "desc": [""]
         }
       ]

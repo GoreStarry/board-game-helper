@@ -4,11 +4,15 @@ import PropTypes from "prop-types";
 import { Pill, List, ListItem } from "@vital-ui/react";
 import { createFilter } from "react-search-input";
 
+import LiCardDetail from "../LiCardDetail";
+
+import "./CardTypeList.css";
+
 const KEYS_TO_FILTERS = ["name"];
 
 class CardTypeList extends PureComponent {
   render() {
-    const { data, searchTerm } = this.props;
+    const { data, searchTerm, game } = this.props;
     const filteredCards = data.type_cards.filter(
       createFilter(searchTerm, KEYS_TO_FILTERS)
     );
@@ -30,16 +34,12 @@ class CardTypeList extends PureComponent {
 
             {filteredCards.map((card, index) => {
               return (
-                <ListItem
+                <LiCardDetail
                   key={card.name + index}
-                  title={card.name + (card.t_name ? `（${card.t_name}）` : "")}
-                >
-                  <List.Content>
-                    {card.desc.map((desc, index) => (
-                      <p key={`desc${index}`}>{desc}</p>
-                    ))}
-                  </List.Content>
-                </ListItem>
+                  card={card}
+                  game={game}
+                  type={data.card_type}
+                />
               );
             })}
           </Fragment>

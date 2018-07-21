@@ -78,7 +78,11 @@ class CardLists extends PureComponent {
 
   render() {
     const { cards, searchTerm, modalCreateCard, cardTypes } = this.state;
-
+    const {
+      match: {
+        params: { game },
+      },
+    } = this.props;
     return (
       <div className="CardLists">
         <div className="edKtZs">
@@ -95,6 +99,7 @@ class CardLists extends PureComponent {
         {cards.map(cardType => {
           return (
             <CardTypeList
+              game={game}
               key={cardType.card_type}
               data={cardType}
               searchTerm={searchTerm}
