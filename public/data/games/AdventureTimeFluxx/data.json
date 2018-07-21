@@ -19,13 +19,106 @@
         },
         {
           "name": "Draw 3 play 2",
-          "t_name": "",
+          "t_name": "Draw3play2 of Them",
           "desc": ["抽三張，用兩張，棄一張"]
         },
         {
           "name": "Draw 2 and Use",
           "t_name": "抽兩張牌",
           "desc": ["抽兩張牌然後用掉他們，再繼續你的手牌回合"]
+        },
+        {
+          "name": "Exchange Keepers",
+          "t_name": "交換夥伴",
+          "desc": [
+            "跟其他玩家交換一名夥伴。（如雙方有人沒有夥伴，則使用後無效。）"
+          ]
+        },
+        {
+          "name": "Floop a Keeper",
+          "t_name": "Floop a keeper",
+          "desc": [
+            "丟棄你與另一名玩家的個一位夥伴，然後抽他一張牌。如果你丟棄的是豬先生，則捨棄對方的所有夥伴，還有拿走他所有手牌。"
+          ]
+        },
+        {
+          "name": "James Baxter",
+          "t_name": "馬踩球（我忘了他叫啥）",
+          "desc": [
+            "所有玩家抽一張卡，所有怪物棄牌，所有手牌和夥伴限制規則棄牌。"
+          ]
+        },
+        { "name": "Jackpost", "t_name": "抽三張牌", "desc": ["抽三張牌"] },
+        {
+          "name": "Lets Simplify",
+          "t_name": "簡單點！",
+          "desc": ["自選清掉最多一半的規則牌。"]
+        },
+        {
+          "name": "Let Do That Again",
+          "t_name": "再做一次！",
+          "desc": [
+            "從棄牌堆中任選一張{動作}或{規則}馬上發動他（玩家可以隨時查看棄牌堆，但不可更動順序）。"
+          ]
+        },
+        {
+          "name": "Mix It All Up",
+          "t_name": "混成一團！",
+          "desc": [
+            "將桌上所有{夥伴}及{怪物}收齊洗牌，重新分給所有人，從自己開始。"
+          ]
+        },
+        {
+          "name": "Rules Reset",
+          "t_name": "清除規則",
+          "desc": ["將所有規則牌棄掉，只留下基本規則。"]
+        },
+        {
+          "name": "Rewind",
+          "t_name": "重生",
+          "desc": ["從棄牌堆中挑選一張獲勝條件到手牌中。"]
+        },
+        {
+          "name": "Steal Something",
+          "t_name": "偷點東西～",
+          "desc": ["偷取任一名玩家的夥伴或怪物到你面前"]
+        },
+        {
+          "name": "Toons Never Die",
+          "t_name": "",
+          "desc": ["從棄牌堆中挑選任何一張{夥伴}或{怪物}然後使用他。"]
+        },
+        {
+          "name": "The Arena",
+          "t_name": "競技場",
+          "desc": [
+            "所有其他玩家選擇他們的一個夥伴或怪物上場對決，然後所有人下注。在所有人決定好之後，你選出擇勝利者。唯勝利者保留自己的卡，其餘則棄牌。如果只有一位玩家有夥伴或怪物，則他必須派出兩隻。"
+          ]
+        },
+        {
+          "name": "The Enchiridion",
+          "t_name": "英雄寶典",
+          "desc": [
+            "偷看牌堆前三張卡，一張家入手牌，一張棄牌，一張放回牌堆上方。"
+          ]
+        },
+        { "name": "Trade Hands", "t_name": "交換手牌", "desc": ["交換手牌"] },
+        {
+          "name": "Trash a New Rule",
+          "t_name": "規則廢止",
+          "desc": ["選擇一張規則棄掉"]
+        },
+        {
+          "name": "Trash Something",
+          "t_name": "廢棄什麼吧",
+          "desc": ["自選棄掉其他玩家面前的夥伴或怪物。"]
+        },
+        {
+          "name": "Zap a Card",
+          "t_name": "奪一張牌",
+          "desc": [
+            "你可以偷取桌面上任何一張牌加到手牌（除基礎規則），如果是怪物卡則放到自己面前。"
+          ]
         }
       ]
     },
@@ -34,8 +127,26 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "card name",
-          "desc": [""]
+          "name": "Magic Man",
+          "t_name": "魔法男",
+          "desc": ["馬上放置此卡並再抽牌。在你的回合，你可以偷走老皮。"]
+        },
+        {
+          "name": "Candy Zombies",
+          "t_name": "糖果殭屍",
+          "desc": ["在你的回合可將此卡移動給有糖果人夥伴的任何的玩家。"]
+        },
+        {
+          "name": "The Lich",
+          "t_name": "巫妖",
+          "desc": [
+            "馬上放置此卡並再抽牌。當你回合時，你可以移動此卡給擁有蝸牛夥伴的玩家。"
+          ]
+        },
+        {
+          "name": "Hunson Abadeer",
+          "t_name": "韓森·阿巴迪爾",
+          "desc": ["馬上放置此卡並再抽牌。在你的回合，你可以偷走艾薇兒。 "]
         }
       ]
     },
@@ -44,8 +155,34 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "card name",
-          "desc": [""]
+          "name": "Finn",
+          "t_name": "阿寶（芬）",
+          "desc": ["當你的回合，你可以移動任何一隻怪物給其他玩家"]
+        },
+        {
+          "name": "Jack",
+          "t_name": "老皮",
+          "desc": ["當你的回合，你可以偷走阿寶"]
+        },
+        {
+          "name": "BMO",
+          "t_name": "BMO",
+          "desc": ["你可以無視手牌跟夥伴(KEEPER)限制"]
+        },
+        {
+          "name": "Princess Bubblegun",
+          "t_name": "泡泡糖公主",
+          "desc": ["當你的回合，你可以以偷走一個糖果人"]
+        },
+        {
+          "name": "Marceline",
+          "t_name": "艾薇兒",
+          "desc": ["怪物將不會影響你的勝利"]
+        },
+        {
+          "name": "Ice King",
+          "t_name": "冰霸王",
+          "desc": ["當你的回合，你可以偷走一名公主"]
         }
       ]
     },
@@ -54,8 +191,38 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "card name",
-          "desc": [""]
+          "name": "City of Thieves",
+          "t_name": "（CoT）竊盜之城",
+          "desc": ["每回合你可以偷走他人一張「夥伴」或「怪物」。"]
+        },
+        {
+          "name": "Get On With It",
+          "t_name": "得到他！",
+          "desc": [
+            "當你的回合結束前，可以棄掉所有手牌，再抽取三張，並結束回合。"
+          ]
+        },
+        {
+          "name": "Goal Mill",
+          "t_name": "（GM）目標洗牌",
+          "desc": ["棄掉手牌中幾張「目標」，就可以重抽幾張牌。"]
+        },
+        {
+          "name": "Let Keep Doing That",
+          "t_name": "（LKDT）我們繼續做這個！",
+          "desc": [
+            "選擇棄牌中的一張「動作」擺在他旁邊，讓所有玩家每回合皆可用一次。"
+          ]
+        },
+        {
+          "name": "Magic Portal",
+          "t_name": "魔法門",
+          "desc": ["回合開始先抽一張，並馬上發動。如果是怪物則再做一次。"]
+        },
+        {
+          "name": "Mathematical",
+          "t_name": "（M）數學！",
+          "desc": ["跟數量牽扯的任何卡，全部都加一。"]
         }
       ]
     },
@@ -64,18 +231,39 @@
       "card_type_description": [""],
       "type_cards": [
         {
-          "name": "card name",
-          "desc": [""]
-        }
-      ]
-    },
-    {
-      "card_type": "",
-      "card_type_description": [""],
-      "type_cards": [
+          "name": "Stop That",
+          "t_name": "（ST）停下來！",
+          "desc": [
+            "他人回合：可以阻止他人剛發動的「動作」或「驚喜」。自身回合：所有其他玩家必須捨棄一張動作卡，或是隨機捨棄一張手排。"
+          ]
+        },
         {
-          "name": "card name",
-          "desc": [""]
+          "name": "Veto",
+          "t_name": "（V）否決！",
+          "desc": [
+            "他人回合：棄掉他人剛發動的一張新「規則」或「驚喜」）。自身回合：捨棄場上至多兩張「規則」卡。"
+          ]
+        },
+        {
+          "name": "I Have a Sword",
+          "t_name": "我有把劍",
+          "desc": [
+            "他人回合：阻止他人偷走你的夥伴。自身回合：捨棄任何人面前的一張夥伴或怪物。"
+          ]
+        },
+        {
+          "name": "Canceled Plans",
+          "t_name": "（CP）企劃取消",
+          "desc": [
+            "他人回合：捨棄他人正發動的「目標」卡，可打斷勝利。自身回合：捨棄當前「目標」，並且所有玩家必須捨棄一張目標，或隨機從手排捨棄另一張牌。"
+          ]
+        },
+        {
+          "name": "That Mine",
+          "t_name": "那是我的！",
+          "desc": [
+            "他人回合：搶奪他人正召喚的「夥伴」，可阻止勝利。他人回合：搶奪他人面前一張「夥伴」。"
+          ]
         }
       ]
     }
