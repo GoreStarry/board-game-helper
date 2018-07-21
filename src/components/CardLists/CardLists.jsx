@@ -1,11 +1,13 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
-import "@vital-ui/react/src/global.css";
+
+import { withAlert } from "react-alert";
 
 import SearchInput from "react-search-input";
 import CardTypeList from "../CardTypeList";
-import { StatelessInput, FieldInput } from "@vital-ui/react";
+import ModalCreateCardData from "../ModalCreateCardData";
+import { StatelessInput, FieldInput, Button, Icon } from "@vital-ui/react";
 
 import getEnvConfig from "../../helper/getEnvConfig";
 
@@ -16,6 +18,8 @@ class CardLists extends PureComponent {
     searchTerm: "",
     rule: [],
     cards: [],
+    cardTypes: [],
+    modalCreateCard: false,
   };
 
   componentDidMount = () => {
@@ -24,6 +28,16 @@ class CardLists extends PureComponent {
 
   _searchUpdated = term => {
     this.setState({ searchTerm: term });
+  };
+
+  _getAllCardTypes = () => {};
+
+  _toggleModalCreateCard = () => {
+    this.setState((state, props) => {
+      return {
+        modalCreateCard: !state.modalCreateCard,
+      };
+    });
   };
 
   _getCardListData = () => {
@@ -35,19 +49,39 @@ class CardLists extends PureComponent {
     axios
       .get(`${getEnvConfig().data_path}/games/${game}/data.json`)
       .then(({ data }) => {
-        console.log(data);
         this.setState({
           ...data,
+          cardTypes: data.cards.map(cardGroup => cardGroup.card_type),
         });
+      })
+      .catch(err => {
+        console.log(err);
+        this.props.alert.error(`${game}卡表獲取失敗...`);
       });
   };
 
+  _addNewCard = data => {
+    const { type } = data;
+    this.setState((state, props) => {
+      return {
+        cards: state.cards.map(cardTypeGroup => {
+          if (cardTypeGroup.card_type === type) {
+            return Object.assign({}, ...cardTypeGroup, {
+              type_cards: [...cardTypeGroup.type_cards, data],
+            });
+          }
+          return cardTypeGroup;
+        }),
+      };
+    });
+  };
+
   render() {
-    const { cards, searchTerm } = this.state;
+    const { cards, searchTerm, modalCreateCard, cardTypes } = this.state;
 
     return (
       <div className="CardLists">
-        <div className="dcExXk">
+        <div className="edKtZs">
           <FieldInput>
             <SearchInput
               className="search-input sc-kGXeez fAmlDf"
@@ -67,6 +101,19 @@ class CardLists extends PureComponent {
             />
           );
         })}
+        <Button
+          onClick={this._toggleModalCreateCard}
+          circle={true}
+          className="btn__fixed"
+        >
+          <Icon name="plus" color="#3b5998" />
+        </Button>
+        <ModalCreateCardData
+          show={modalCreateCard}
+          closeModal={this._toggleModalCreateCard}
+          cardTypes={cardTypes}
+          addNewCard={this._addNewCard}
+        />
       </div>
     );
   }
@@ -76,4 +123,4 @@ CardLists.propTypes = {};
 
 CardLists.defaultProps = {};
 
-export default CardLists;
+export default withAlert(CardLists);

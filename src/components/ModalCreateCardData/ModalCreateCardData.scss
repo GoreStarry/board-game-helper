@@ -1,0 +1,23 @@
+@import "../../../node_modules/include-media/dist/_include-media.scss";
+
+.ModalCreateCardData {
+}
+.ModalCreateCardDataBody {
+  width: 95vw;
+  max-height: 90vh;
+  @include media(">tablet") {
+    width: 600px;
+  }
+  .container__checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .label__checkbox {
+    padding: 0.2em 0;
+    white-space: nowrap;
+  }
+  .container__btns {
+    float: right;
+  }
+}

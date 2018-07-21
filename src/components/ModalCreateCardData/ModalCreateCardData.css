@@ -1,0 +1,15 @@
+.ModalCreateCardDataBody {
+  width: 95vw;
+  max-height: 90vh; }
+  @media (min-width: 769px) {
+    .ModalCreateCardDataBody {
+      width: 600px; } }
+  .ModalCreateCardDataBody .container__checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .ModalCreateCardDataBody .label__checkbox {
+    padding: 0.2em 0;
+    white-space: nowrap; }
+  .ModalCreateCardDataBody .container__btns {
+    float: right; }

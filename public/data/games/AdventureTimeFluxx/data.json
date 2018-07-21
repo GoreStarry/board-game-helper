@@ -2,17 +2,80 @@
   "rule": [
     {
       "rule_name": "rule name",
-      "rule_description": [""]
+      "desc": [""]
     }
   ],
   "cards": [
     {
-      "card_type": "type",
+      "card_type": "Action",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "Choose Goose",
+          "t_name": "怪怪鵝",
+          "desc": [
+            "選擇一項執行：（1）抽三張牌。（2）偷走一個夥伴。（3）丟棄任何一張場上的卡"
+          ]
+        },
+        {
+          "name": "Draw 3 play 2",
+          "t_name": "",
+          "desc": ["抽三張，用兩張，棄一張"]
+        },
+        {
+          "name": "Draw 2 and Use",
+          "t_name": "抽兩張牌",
+          "desc": ["抽兩張牌然後用掉他們，再繼續你的手牌回合"]
+        }
+      ]
+    },
+    {
+      "card_type": "Creeper",
       "card_type_description": [""],
       "type_cards": [
         {
           "name": "card name",
-          "rule_description": [""]
+          "desc": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "Keeper",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "card name",
+          "desc": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "New Rule",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "card name",
+          "desc": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "Surprise",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "card name",
+          "desc": [""]
+        }
+      ]
+    },
+    {
+      "card_type": "",
+      "card_type_description": [""],
+      "type_cards": [
+        {
+          "name": "card name",
+          "desc": [""]
         }
       ]
     }

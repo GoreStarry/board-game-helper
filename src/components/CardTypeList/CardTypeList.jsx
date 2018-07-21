@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent, Fragment } from "react";
 import PropTypes from "prop-types";
 
 import { Pill, List, ListItem } from "@vital-ui/react";
@@ -15,23 +15,34 @@ class CardTypeList extends PureComponent {
     return (
       <div className="CardTypeList">
         <List collapse border>
-          <Pill.Group default={1}>
-            <Pill
-              id={1}
-              label={data.card_type}
-              badge={data.type_cards.length}
-            />
-          </Pill.Group>
+          <Fragment>
+            {filteredCards.length ? (
+              <Pill.Group default={1}>
+                <Pill
+                  id={1}
+                  label={data.card_type}
+                  badge={data.type_cards.length}
+                />
+              </Pill.Group>
+            ) : (
+              false
+            )}
 
-          {filteredCards.map((card, index) => {
-            return (
-              <ListItem key={card.name + index} title={card.name}>
-                <List.Content>
-                  {card.rule_description.map(desc => <p>{desc}</p>)}
-                </List.Content>
-              </ListItem>
-            );
-          })}
+            {filteredCards.map((card, index) => {
+              return (
+                <ListItem
+                  key={card.name + index}
+                  title={card.name + (card.t_name ? `（${card.t_name}）` : "")}
+                >
+                  <List.Content>
+                    {card.desc.map((desc, index) => (
+                      <p key={`desc${index}`}>{desc}</p>
+                    ))}
+                  </List.Content>
+                </ListItem>
+              );
+            })}
+          </Fragment>
         </List>
       </div>
     );

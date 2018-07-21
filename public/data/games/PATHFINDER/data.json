@@ -2,7 +2,7 @@
   "rule": [
     {
       "rule_name": "rule name",
-      "rule_description": [""]
+      "desc": [""]
     }
   ],
   "cards": [
@@ -12,13 +12,13 @@
       "type_cards": [
         {
           "name": "Acidic Sling",
-          "rule_description": [
+          "desc": [
             "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
           ]
         },
         {
           "name": "Allying Dart",
-          "rule_description": [
+          "desc": [
             "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
           ]
         }
@@ -30,13 +30,13 @@
       "type_cards": [
         {
           "name": "Belt of Physical Might",
-          "rule_description": [
+          "desc": [
             "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
           ]
         },
         {
           "name": "Blast Stone",
-          "rule_description": [
+          "desc": [
             "這是解釋，這是解釋，這是解釋，這是解釋，這是解釋，這是解釋。"
           ]
         }
@@ -48,11 +48,11 @@
       "type_cards": [
         {
           "name": "Adamantine Plate Armor ",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Arrow Catching",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     },
@@ -62,11 +62,11 @@
       "type_cards": [
         {
           "name": "Amulet of Fiery Fists ",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Amulet of Fortitude",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     },
@@ -76,11 +76,11 @@
       "type_cards": [
         {
           "name": "Acolyte",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Aldern Foxglove",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     },
@@ -90,11 +90,11 @@
       "type_cards": [
         {
           "name": "Chellan, Sword of Greed",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Emerald Codex",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     },
@@ -104,11 +104,11 @@
       "type_cards": [
         {
           "name": "Blessing of Abadar",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Blessing of Calistria (B, C)",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     },
@@ -118,11 +118,11 @@
       "type_cards": [
         {
           "name": "",
-          "rule_description": [""]
+          "desc": [""]
         },
         {
           "name": "Blast Stone",
-          "rule_description": [""]
+          "desc": [""]
         }
       ]
     }

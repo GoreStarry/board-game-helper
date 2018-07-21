@@ -1,1 +1,9 @@
-.GameList{}
+.GameList {
+  h1 {
+    padding: 1.3rem;
+    background-image: linear-gradient(#012b6e 0, #0442a4 80%);
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+}
