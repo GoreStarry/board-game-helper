@@ -16,7 +16,7 @@ import {
   StatelessTextArea,
 } from "@vital-ui/react";
 
-import styles from "./ModalCreateCardData.css";
+import "./ModalCreateCardData.css";
 
 class ModalCreateCardData extends PureComponent {
   state = {

@@ -1,8 +1,6 @@
 @import "../../../node_modules/include-media/dist/_include-media.scss";
 
-.ModalCreateCardData {
-}
-.ModalCreateCardDataBody {
+.ModalCreateCardDataBody.ModalCreateCardDataBody {
   width: 95vw;
   max-height: 90vh;
   @include media(">tablet") {
