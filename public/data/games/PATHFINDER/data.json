@@ -166,6 +166,24 @@
       ]
     },
     {
+      "card_type": "Barrier",
+      "card_type_description": [""],
+      "type_cards": [
+        { "name": "Large Chest", "desc": [""], "image": true },
+        { "name": "Ambush", "desc": [""], "image": true },
+        { "name": "locked passage", "desc": [""], "image": true },
+        { "name": "pit trap", "desc": [""], "image": true },
+        { "name": "collapsed ceiling", "desc": [""], "image": true },
+        { "name": "explosive runes", "desc": [""], "image": true },
+        { "name": "trapped passageway", "desc": [""], "image": true },
+        { "name": "treasure map", "desc": [""], "image": true },
+        { "name": "skeleton horde", "desc": [""], "image": true },
+        { "name": "trapped locker", "desc": [""], "image": true },
+        { "name": "mystic inscription", "desc": [""], "image": true },
+        { "name": "battered chest", "desc": [""], "image": true }
+      ]
+    },
+    {
       "card_type": "",
       "card_type_description": [""],
       "type_cards": [
