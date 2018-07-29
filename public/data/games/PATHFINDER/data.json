@@ -151,25 +151,6 @@
       ]
     },
     {
-      "card_type": "ALLIES",
-      "card_type_description": [""],
-      "type_cards": [
-        {
-          "name": "",
-          "desc": [""]
-        },
-        {
-          "name": "GUIDE",
-          "t_name": "指南",
-          "type": "ALLIES",
-          "desc": [
-            "重新填充此卡以將1d10添加到您的生存檢定中丟棄此卡以瀏覽您的位置",
-            null
-          ]
-        }
-      ]
-    },
-    {
       "card_type": "BLESSINGS",
       "card_type_description": [""],
       "type_cards": [
