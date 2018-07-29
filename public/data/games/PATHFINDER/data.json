@@ -170,16 +170,6 @@
       ]
     },
     {
-      "card_type": "LOOT",
-      "card_type_description": [""],
-      "type_cards": [
-        {
-          "name": "",
-          "desc": [""]
-        }
-      ]
-    },
-    {
       "card_type": "BLESSINGS",
       "card_type_description": [""],
       "type_cards": [
@@ -329,9 +319,24 @@
       "card_type": "HENCHMAN",
       "card_type_description": ["黨羽"],
       "type_cards": [
-        { "name": "poison trap", "desc": ["如果戰敗，丟掉牌組最上面一張卡，然後，每一個在這個地點的角色，要通過7 constitusion 或 7 fortitude 或 1d4-1 poison傷害，；如果戰勝，你可以立即嘗試關閉這個地點"] },
-        { "name": "ancient skeleton", "desc": ["skeleton對mental跟poison免疫;如果檢定使用slashing或piercing的話，需要-3點才能打贏skeleton；如果打贏了，你可能可以立即嘗試關閉這個地點"] },
-        { "name": "bandit", "desc": ["在這個回合開始之前，從你手牌中recharge一張卡;如果打贏了，你可以嘗試關閉這個地點"] }
+        {
+          "name": "poison trap",
+          "desc": [
+            "如果戰敗，丟掉牌組最上面一張卡，然後，每一個在這個地點的角色，要通過7 constitusion 或 7 fortitude 或 1d4-1 poison傷害，；如果戰勝，你可以立即嘗試關閉這個地點"
+          ]
+        },
+        {
+          "name": "ancient skeleton",
+          "desc": [
+            "skeleton對mental跟poison免疫;如果檢定使用slashing或piercing的話，需要-3點才能打贏skeleton；如果打贏了，你可能可以立即嘗試關閉這個地點"
+          ]
+        },
+        {
+          "name": "bandit",
+          "desc": [
+            "在這個回合開始之前，從你手牌中recharge一張卡;如果打贏了，你可以嘗試關閉這個地點"
+          ]
+        }
       ]
     },
     {
