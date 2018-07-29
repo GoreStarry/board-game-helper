@@ -71,10 +71,15 @@
       "card_type": "ARMORS",
       "card_type_description": [""],
       "type_cards": [
-        {
-          "name": "",
-          "desc": [""]
-        }
+        { "name": "Chain Mail", "desc": [""], "image": true },
+        { "name": "Elven Chain Shirt", "desc": [""], "image": true },
+        { "name": "Half-Plate", "desc": [""], "image": true },
+        { "name": "Leather Armor", "desc": [""], "image": true },
+        { "name": "Magic Chain Mail", "desc": [""], "image": true },
+        { "name": "Magic Half-Plate", "desc": [""], "image": true },
+        { "name": "Magic Leather Armor", "desc": [""], "image": true },
+        { "name": "Magic Shield", "desc": [""], "image": true },
+        { "name": "Wooden Shield", "desc": [""], "image": true }
       ]
     },
     {
@@ -152,6 +157,15 @@
         {
           "name": "",
           "desc": [""]
+        },
+        {
+          "name": "GUIDE",
+          "t_name": "指南",
+          "type": "ALLIES",
+          "desc": [
+            "重新充值此卡以將1d10添加到您的生存支票中丟棄此卡以瀏覽您的位置",
+            null
+          ]
         }
       ]
     },
