@@ -206,6 +206,15 @@
       ]
     },
     {
+      "card_type": "VILLAIN",
+      "card_type_description": ["魔王，請念英文版台詞"],
+      "type_cards": [
+        { "name": "pillbug podiker", "desc": ["所有由pillbug造成的毒傷害都是可能無法減少的傷害"] },
+        { "name": "jubrayl vhiski", "desc": ["在遭遇之前，從手中rechard兩張排"] },
+        { "name": "black fang", "desc": ["在遭遇之前 每個在這個地點的角色必須檢定7 constitution 或7 fortitude或1d4-1 acid 傷害"] }
+      ]
+    },
+    {
       "card_type": "",
       "card_type_description": [""],
       "type_cards": [
