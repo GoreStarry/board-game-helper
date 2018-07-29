@@ -7,13 +7,35 @@
   ],
   "cards": [
     {
-      "card_type": "WEAPONS",
-      "card_type_description": ["詠唱"],
+      "card_type": "WEAPON",
+      "card_type_description": ["武器"],
       "type_cards": [
-        {
-          "name": "",
-          "desc": [""]
-        }
+        { "name": "mace", "desc": [""], "image": true },
+        { "name": "flaming mace", "desc": [""], "image": true },
+        { "name": "returning throwing awe", "desc": [""], "image": true },
+        { "name": "short sword", "desc": [""], "image": true },
+        { "name": "longbow", "desc": [""], "image": true },
+        { "name": "heavy crossbow", "desc": [""], "image": true },
+        { "name": "light crossbow", "desc": [""], "image": true },
+        { "name": "shock longbow", "desc": [""], "image": true },
+        { "name": "longsword", "desc": [""], "image": true },
+        { "name": "longsword + 1", "desc": [""], "image": true },
+        { "name": "scimitar", "desc": [""], "image": true },
+        { "name": "dart", "desc": [""], "image": true },
+        { "name": "longspear", "desc": [""], "image": true },
+        { "name": "bastard sword", "desc": [""], "image": true },
+        { "name": "battleaxe", "desc": [""], "image": true },
+        { "name": "greataxe", "desc": [""], "image": true },
+        { "name": "shortbow", "desc": [""], "image": true },
+        { "name": "sling", "desc": [""], "image": true },
+        { "name": "quarterstaff", "desc": [""], "image": true },
+        { "name": "longthrowling axespear", "desc": [""], "image": true },
+        { "name": "warhammer", "desc": [""], "image": true },
+        { "name": "warhammer + 1", "desc": [""], "image": true },
+        { "name": "starknife", "desc": [""], "image": true },
+        { "name": "spiked chain", "desc": [""], "image": true },
+        { "name": "dagger", "desc": [""], "image": true },
+        { "name": "glaive", "desc": [""], "image": true }
       ]
     },
     {
@@ -180,7 +202,7 @@
       ]
     },
     {
-      "card_type": "Barrier",
+      "card_type": "BARRIER",
       "card_type_description": [""],
       "type_cards": [
         { "name": "Large Chest", "desc": [""], "image": true },
