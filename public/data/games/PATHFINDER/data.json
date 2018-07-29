@@ -20,10 +20,29 @@
       "card_type": "SPELLS",
       "card_type_description": ["詠唱"],
       "type_cards": [
-        {
-          "name": "",
-          "desc": [""]
-        }
+        { "name": "Acid Arrow", "desc": [""], "image": true },
+        { "name": "Aid", "desc": [""], "image": true },
+        { "name": "Arcane Armor", "desc": [""], "image": true },
+        { "name": "Augury", "desc": [""], "image": true },
+        { "name": "Charm Person", "desc": [""], "image": true },
+        { "name": "Corrosive Storm", "desc": [""], "image": true },
+        { "name": "Cure", "desc": [""], "image": true },
+        { "name": "Detect Magic", "desc": [""], "image": true },
+        { "name": "Detect Evil", "desc": [""], "image": true },
+        { "name": "Find Traps", "desc": [""], "image": true },
+        { "name": "Force Missile", "desc": [""], "image": true },
+        { "name": "Glibness", "desc": [""], "image": true },
+        { "name": "Guidance", "desc": [""], "image": true },
+        { "name": "Holy Light", "desc": [""], "image": true },
+        { "name": "Inflict", "desc": [""], "image": true },
+        { "name": "Invisibility", "desc": [""], "image": true },
+        { "name": "Levitate", "desc": [""], "image": true },
+        { "name": "Lightning Touch", "desc": [""], "image": true },
+        { "name": "Mending", "desc": [""], "image": true },
+        { "name": "Mirror Image", "desc": [""], "image": true },
+        { "name": "Sanctuary", "desc": [""], "image": true },
+        { "name": "Sleep", "desc": [""], "image": true },
+        { "name": "Strength", "desc": [""], "image": true }
       ]
     },
     {
