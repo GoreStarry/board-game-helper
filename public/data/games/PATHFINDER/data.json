@@ -7,7 +7,7 @@
   ],
   "cards": [
     {
-      "card_type": "WEAPON",
+      "card_type": "Weapon",
       "card_type_description": ["武器"],
       "type_cards": [
         { "name": "mace", "desc": [""], "image": true },
